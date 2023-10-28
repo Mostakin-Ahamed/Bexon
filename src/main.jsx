@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import {
   createBrowserRouter,
@@ -11,7 +10,7 @@ import MainLayout from './Components/Layout/MainLayout.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout></MainLayout>
+    element:<MainLayout></MainLayout>
   }
 ]);
 

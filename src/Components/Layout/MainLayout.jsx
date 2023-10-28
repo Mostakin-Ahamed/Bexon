@@ -1,12 +1,14 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import Banner from "../Banner/Banner";
 
 
 const MainLayout = () => {
     return (
-        <div className="max-w-full">
+        <div >
             <Navbar></Navbar>
             <Outlet></Outlet>
+            <Banner></Banner>
         </div>
     );
 };

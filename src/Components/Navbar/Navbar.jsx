@@ -2,7 +2,7 @@
 
 const Navbar = () => {
     return (
-        <div className="justify-center font-family-[Satoshi]">
+        <div className="lg:ml-10 justify-center font-family-[Satoshi]">
             <div className="flex justify-center">
                 <div className=" navbar bg-[#FAF5EF]">
                     <div className="navbar-start">

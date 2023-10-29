@@ -2,7 +2,7 @@ import '../Banner/Banner.css'
 
 const Banner = () => {
     return (
-        <div className='mt-16 pl-10 lg:pl-60'>
+        <div className='mt-16 pl-10 lg:ml-64'>
             <h2 id='header'>😎 GIVING YOU THE BEST DESIGNS</h2>
             <div id='header-text'>
                 <p>saving world with <br /> good designs.</p>
@@ -39,13 +39,15 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='pr-10 lg:mr-80'>
+                <div className='pr-10 lg:mr-60'>
                     <img className='lg:h-[480px] lg:w-[718px] object-cover mb-20' src="/BannerImage.png" alt="" />
+                    <img className='absolute ml-44 -mt-64 lg:ml-80 lg:-mt-[350px]' src="/public/Play video.svg" alt="" />
                 </div>
             </div>
-            <div className=' max-w-full'><svg xmlns="http://www.w3.org/2000/svg"  height="2" viewBox="0 0 1170 2" fill="none">
+            {/* <div className=' max-w-full'><svg xmlns="http://www.w3.org/2000/svg"  height="2" viewBox="0 0 1170 2" fill="none">
                 <path d="M0 1H1170" stroke="#E7DFD7" strokeDasharray="17 17" />
-            </svg></div>
+            </svg></div> */}
+            <hr className='border-dashed border-gray-400'/>
         </div>
     );
 };

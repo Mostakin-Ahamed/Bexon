@@ -1,7 +1,7 @@
 import '../Body/Ui.css'
 const Ui = () => {
     return (
-        <div className="lg:flex mt-36 lg:pl-60 mb-12">
+        <div className="lg:flex mt-36 lg:ml-64 mb-12">
             <div className='pl-10 lg:mr-40'>
                 <div className='mb-16'>
                     <h2 className="header text-2xl font-extrabold">UI/UX DESIGN</h2>
@@ -46,6 +46,8 @@ const Ui = () => {
                     <div><img src="/public/Rectangle 18.png" alt="" /></div>
                 </div>
             </div>
+           
+           
         </div>
     );
 };

@@ -1,0 +1,29 @@
+.header {
+    color: var(--text-color-heading, #110804);
+
+    /* Web/H3 */
+    font-family: 'Satoshi';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 133.333% */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.header1 {
+    color: var(--text-color-heading, #110804);
+    width: 468px;
+    text-align: start;
+
+    /* Web/H2 */
+    font-family: 'Satoshi';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    /* 125% */
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+}

@@ -30,16 +30,16 @@ const Banner = () => {
                                 <button className='w-[257px] absolute h-[55px] bg-[#FE7E41] mt-9 font-semibold text-base text-white spacing-5'>START A PROJECT</button>
                                 <button className='static w-[257px] h-[55px] border-solid border-2 mt-12 ml-5 border-black'></button>
                             </div>
-                            <div>
-                                <img src="/public/Union.svg" className='static ml-96 -mt-7' alt="" />
+                            <div >
+                                <img src="/public/Union.svg" className='static ml-96 -mt-7 mb-7' alt="" />
                             </div>
                         </div>
-                        <div>
-                            <img src="/public/Icon.svg" className='mt-20' alt="" />
+                        <div className=''>
+                            <img src="/Icon.svg" className='mt-20 hidden lg:block' alt="" />
                         </div>
                     </div>
                 </div>
-                <div className='lg:mr-80'>
+                <div className='pr-10 lg:mr-80'>
                     <img className='lg:h-[480px] lg:w-[718px] object-cover mb-20' src="/BannerImage.png" alt="" />
                 </div>
             </div>

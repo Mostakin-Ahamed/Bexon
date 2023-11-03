@@ -31,7 +31,7 @@ const Banner = () => {
                                 <button className='static w-[257px] h-[55px] border-solid border-2 mt-12 ml-5 border-black'></button>
                             </div>
                             <div >
-                                <img src="/public/Union.svg" className='static ml-96 -mt-7 mb-7' alt="" />
+                                <img src="/public/Union.svg" className='static ml-72 lg:ml-96 -mt-7 mb-7' alt="" />
                             </div>
                         </div>
                         <div className=''>
@@ -44,9 +44,6 @@ const Banner = () => {
                     <img className='absolute ml-44 -mt-64 lg:ml-80 lg:-mt-[350px]' src="/public/Play video.svg" alt="" />
                 </div>
             </div>
-            {/* <div className=' max-w-full'><svg xmlns="http://www.w3.org/2000/svg"  height="2" viewBox="0 0 1170 2" fill="none">
-                <path d="M0 1H1170" stroke="#E7DFD7" strokeDasharray="17 17" />
-            </svg></div> */}
             <hr className='border-dashed border-gray-400'/>
         </div>
     );

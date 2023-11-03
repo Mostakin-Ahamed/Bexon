@@ -1,0 +1,6 @@
+div:focus{
+    background-color: yellow ;
+}
+div:active{
+    background-color: red;
+}
